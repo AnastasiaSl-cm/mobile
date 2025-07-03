@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_data"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Data Fragment" />
+
+        <item
+            android:id="@+id/nav_webview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="WebView" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_compass"
+            android:title="Компас" />
+        <item
+            android:id="@+id/nav_camera_note"
+            android:icon="@drawable/ic_photo"
+            android:title="Фото заметка" />
+        <item
+            android:id="@+id/nav_audio_note"
+            android:icon="@drawable/ic_mic"
+            android:title="Аудио заметка" />
+    </group>
+</menu>
